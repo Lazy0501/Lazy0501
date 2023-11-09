@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+        .box {
+            margin: 0 auto;
+            
+            
+            width: 1226px;
+            height: 614px;
+            background-color: beige;
+        }
+        .left {
+            float: left;
+            width: 613px;
+            height:614px;
+            background-color: aquamarine;
+            border-color: blue;
+            
+            
+         }
+        .right {
+            float: right;
+            width: 613px;
+            height:614px;
+            background-color: lightcoral;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left">
+            <form action="/action_page.php">
+
+                <label for="1">用户名</label>
+                <input type="text" id="1" name="name" placeholder="Your name.."><br>
+            
+                <label for="2">密码</label>
+                <input type="password" id="2" name="password" placeholder="Password"><br>
+            
+                <label for="country">国家</label>
+                <select id="country" name="country">
+                  <option value="china" >China</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+                <br>
+              
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+        <div class="right">
+            <table border="1" width="600" height="500" >
+                <caption><strong>帅哥</strong></caption>
+                <thead>
+                    <tr>
+                        <th>姓名</th>
+                        <th>代表作</th>
+                        <th>评价</th>
+                    </tr>
+                </thead>  
+                <tbody>
+                    <tr>
+                        <td>吴彦祖</td>
+                        <td>新扎师妹</td>
+                        <td>傻白甜黑道太子爷</td>
+                    </tr>
+                    <tr>
+                        <td>王鹤棣</td>
+                        <td>苍兰玦</td>
+                        <td>真帅</td>
+                    </tr>
+                    <tr>
+                        <td>白敬亭</td>
+                        <td>长相思</td>
+                        <td>也帅</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+    
+</body>
+</html>
